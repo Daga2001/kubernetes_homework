@@ -1,0 +1,13 @@
+--==========================================================================================
+-- imagenes usadas en cada template:
+--==========================================================================================
+
+Che Guevara!: https://iili.io/HrEXKe1.png
+Meme!: https://iili.io/HrGTLxt.png
+
+--==========================================================================================
+-- comando para cambiar imagenes de docker:
+--==========================================================================================
+
+kubectl set image deployment/flask-app-deployment flask-app-container=daga2001/kubernetes_work:V1.0.2
+kubectl set image deployment/flask-app-deployment flask-app-container=daga2001/kubernetes_work:V2.0.0
